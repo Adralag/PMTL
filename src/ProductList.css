@@ -1,19 +1,16 @@
-/* Reset some default styles */
 body, h1, ul {
     margin: 0;
     padding: 0;
 }
 
-/* Set a background color */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
 }
 
-/* Navbar */
 .navbar {
-    background-color: #4CAF50;
-    color: #fff!important;
+    background-color: #26272b;
+    color: #ff0000!important;
     padding: 15px;
     display: flex;
     justify-content: space-between;
@@ -98,7 +95,7 @@ body {
 }
 
 .product-button {
-    background-color: #e74c3c;
+    background-color: #26272b;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -198,7 +195,7 @@ body {
 /* ProductList.css */
 
 .product-button {
-    background-color: #4CAF50; /* Green */
+    background-color: #26272b; /* Green */
     border: none;
     color: white;
     padding: 10px 20px;
@@ -212,7 +209,7 @@ body {
   }
   
   .product-button:hover {
-    background-color: #45a049;
+    background-color: #ff0000;
   }
   
   .product-button.added-to-cart {

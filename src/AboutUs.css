@@ -31,3 +31,23 @@
   .plant_logo_left{
     text-align: left;
   }
+
+  /* --- Mobile Responsive Styles --- */
+  @media (max-width: 600px) {
+    .about-us-container {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .about-us-heading {
+      font-size: 24px;
+    }
+    .about-us-description,
+    .about-us-content {
+      font-size: 16px;
+    }
+    .plant_logo_right,
+    .plant_logo_left {
+      text-align: center;
+    }
+  }

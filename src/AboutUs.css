@@ -2,7 +2,6 @@
     width: 1000px;
     /* margin: 0 auto; */
     /* padding: 20px; */
-    /* background-color: red; */
     text-align: justify;
   }
   
@@ -34,20 +33,22 @@
 
   /* --- Mobile Responsive Styles --- */
   @media (max-width: 600px) {
-    .about-us-container {
-      width: 100%;
-      padding: 10px;
-      box-sizing: border-box;
-    }
-    .about-us-heading {
-      font-size: 24px;
-    }
-    .about-us-description,
-    .about-us-content {
-      font-size: 16px;
-    }
-    .plant_logo_right,
-    .plant_logo_left {
-      text-align: center;
-    }
+  .about-us-container {
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
   }
+
+  .about-us-heading {
+    font-size: 1.5rem; /* 24px */
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .about-us-description,
+  .about-us-content {
+    font-size: 1rem; /* 16px */
+    line-height: 1.6;
+    text-align: center;
+  }
+}

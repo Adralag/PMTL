@@ -111,58 +111,57 @@
 }
 
 /* Responsive Styles */
-/* Tablet and below (≤768px) */
 @media screen and (max-width: 768px) {
   .content {
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
+    gap: 10px;
+    padding: 20px 0;
+  }
+
+  .landing_content {
+    margin-top: 100px;
+    margin-left: 0;
+    width: 90%;
     height: auto;
-    gap: 1rem;
-    padding: 2rem 1rem;
+    padding: 20px 10px;
     text-align: center;
   }
 
-  .landing_content {
-    margin-top: 4rem;
-    margin-left: 0;
-    width: 90%;
-    padding: 1.5rem 1rem;
-  }
-
   .content h1 {
-    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-size: 32px;
   }
 
   .content p {
-    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-size: 18px;
   }
 
   .get-started-button {
-    font-size: clamp(1.5rem, 5vw, 2.5rem);
-    padding: 0.75rem 1.25rem;
-    margin-top: 1.25rem;
+    font-size: 18px;
+    padding: 12px 18px;
+    margin-top: 20px;
   }
 }
 
-/* Mobile devices (≤480px) */
 @media screen and (max-width: 480px) {
   .landing_content {
-    margin-top: 2rem;
-    width: 95%;
-    padding: 1rem 0.5rem;
+    margin-top: 40px;
+    width: 98%;
+    padding: 10px 2px;
   }
 
   .content h1 {
-    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-size: 22px;
   }
 
   .content p {
-    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-size: 14px;
   }
 
   .get-started-button {
-    font-size: clamp(1.5rem, 5vw, 2.5rem);
-    padding: 0.625rem 1rem;
+    font-size: 16px;
+    padding: 10px 12px;
   }
 }
